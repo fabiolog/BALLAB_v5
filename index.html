@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Fabio Ballasina">
+	<META name="robots" content="index,follow">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<meta name="description" content="Scopri le mie Fotografie di Viaggio e le creazioni in Acrilico su Tela">
+    <meta name="keywords" content="ballab,Fotografie di Viaggio, Arte Informale, Acrilico su tela" />
+	
+    <title>BALLAB | Fotografie di Viaggio e creazioni in Acrilico su Tela</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- BALLAB CSS -->
+	<link href="css/ballab.css" rel="stylesheet">
+	<!-- LightGallery Files -->
+	<link href="dist/css/lightgallery.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+    <!-- Custom Fonts -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300|Open+Sans:300" rel="stylesheet">
+
+     <style type="text/css">
+            body{
+                
+            }
+            .demo-gallery > ul {
+              margin-bottom: 0;
+            }
+            .demo-gallery > ul > li {
+                float: left;
+                margin-bottom: 15px;
+            }
+            .demo-gallery > ul > li a {
+              border: 1px solid #27afbc;
+              display: block;
+              overflow: hidden;
+              position: relative;
+              float: left;
+            }
+            .demo-gallery > ul > li a > img {
+              -webkit-transition: -webkit-transform 0.15s ease 0s;
+              -moz-transition: -moz-transform 0.15s ease 0s;
+              -o-transition: -o-transform 0.15s ease 0s;
+              transition: transform 0.15s ease 0s;
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+              height: 100%;
+              width: 100%;
+            }
+            .demo-gallery > ul > li a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+              opacity: 1;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.1);
+              bottom: 0;
+              left: 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+              -webkit-transition: background-color 0.15s ease 0s;
+              -o-transition: background-color 0.15s ease 0s;
+              transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster > img {
+              left: 50%;
+              margin-left: -10px;
+              margin-top: -10px;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              -webkit-transition: opacity 0.3s ease 0s;
+              -o-transition: opacity 0.3s ease 0s;
+              transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .justified-gallery > a > img {
+              -webkit-transition: -webkit-transform 0.15s ease 0s;
+              -moz-transition: -moz-transform 0.15s ease 0s;
+              -o-transition: -o-transform 0.15s ease 0s;
+              transition: transform 0.15s ease 0s;
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+              height: 100%;
+              width: 100%;
+            }
+            .demo-gallery .justified-gallery > a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+              opacity: 1;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.1);
+              bottom: 0;
+              left: 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+              -webkit-transition: background-color 0.15s ease 0s;
+              -o-transition: background-color 0.15s ease 0s;
+              transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+              left: 50%;
+              margin-left: -10px;
+              margin-top: -10px;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              -webkit-transition: opacity 0.3s ease 0s;
+              -o-transition: opacity 0.3s ease 0s;
+              transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .video .demo-gallery-poster img {
+              height: 48px;
+              margin-left: -24px;
+              margin-top: -24px;
+              opacity: 0.8;
+              width: 48px;
+            }
+            .demo-gallery.dark > ul > li a {
+              border: 3px solid #04070a;
+            }
+            .home .demo-gallery {
+              padding-bottom: 20px;
+			  padding-top: 40px;
+            }
+        </style>
+</head>
+
+   <body class="home">
+
+    <!-- Navigation -->
+
+	 <section id="navbarr" class="navbarr section--inverted">
+	<!-- /.container-fluid -->
+    <nav class="navbar navbar-custom navbar-inverse navbar-fixed-top " role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo/ballab_logo_v2.png" width=130px></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</section>
+    
+<header>
+
+</header>
+  <section id="intro" class="intro">
+        <div class="container wow fadeInDown">
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Page Heading
+                    <small>Secondary Text</small>
+                </h1>
+				<i class="fa fa-commenting-o" aria-hidden="true"></i>
+<br>
+				<p style="font-family: 'Lato';">text here</p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+        </div>
+    </section>
+     <section id="photo" class="photo">
+		<div class="container-fluid">
+   
+
+		
+		<div class="demo-gallery">
+                    <ul id="responsive-images" class="list-unstyled row">
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-1.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-2.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-13.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-4.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+						<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-1.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-2.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-13.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-4.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+						<li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-1.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-2.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-13.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1-1600.jpg 1600" data-src="img/1.jpg" data-download-url='false'>
+                            <a href="">
+                                <img class="img-responsive" src="img/thumb-4.jpg" alt='prova 1'>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+		
+			</div>
+
+		</section>
+	
+	
+	</div class="container-fluid-wide">
+    <!-- About Section -->
+    <section id="about" class="success ">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>ABOUT</h2>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-lg-offset-2">
+                    <p><img src="img/misc/mic.jpg" class="img-responsive" alt="FabioLog"></p>
+                </div>
+                <div class="col-lg-4">
+                    <h3><strong>Fabio Ballasina</strong> </h3>
+					<p>29 Anni, formalmente tecnico informatico, nel tempo libero adoro viaggiare e scattare qualche fotografia. A volte mi fermo su una tela bianca a pensare.
+					<br> Temerario promotore della fotografia sottoesposta e dell'acrilico in abbondanza.</p>
+                </div>
+               <!-- <div class="col-lg-12 text-right">
+                    <a href="bio.html" class="btn btn-lg btn-outline hvr-ripple-out ">
+                         Dimmi di più
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section--inverted">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>CONTATTI</h2>
+					
+					<p style="font-size:2em">Qui sotto trovi tutti i bottoncini che ti servono per raggiungermi sui social;<br>
+					<div class="wow tada">
+					<img src="img/logo/foto.png"></div> <br> nessun problema sono gratis, basta chiedere:</p>
+                    <p style="font-size:2em"><a href="mailto:fabio.ballasina@gmail.com">fabio.ballasina[at]gmail.com</a></p>
+					
+                </div>
+            </div>
+
+        </div>
+		
+		
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4" align=center>
+                       <h4>Credits:</h4>
+                        <p><img src="img/logo/ballab.png" class="img-responsive" width=200px alt="ballab"></p>
+						<p><small>Made with  <span class="glyphicon glyphicon-heart"></span> in 2016 <br><a href="credits.html">Credits and Thanks</a> | <i style="font-size:12px">v5.0</i></small></p>
+                            
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Around the Web</h4>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/fabiolog" class="btn-social btn-outline"><i style="font-size:30pt" class="fa fa-fw fa-facebook-official"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/fabiolog/" class="btn-social btn-outline"><i style="font-size:30pt"class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/fabio_log" class="btn-social btn-outline"><i style="font-size:30pt"class="fa fa-fw fa-twitter-square"></i></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Altre pagine che magari..</h4>
+                        <p style='font-size:15px'><a href="http://ariafreddapic.tumblr.com/">Ho un Tumblr di "cose varie"</a></p>
+						<p style='font-size:15px'><a href="http://dirtycloudz.tumblr.com/">Ho un Tumblr di nuvole</a></p>
+						<p style='font-size:15px'><a href="http://nycinemaskyline.tumblr.com/">Ho un Tumblr sullo Skyline di NY</a></p>
+						<p style='font-size:15px'><a href="http://vsco.co/fabioballasina/">Ho una piccola pagina VSCO</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- LIGHTGALLERY -->
+	     <script type="text/javascript">
+        $(document).ready(function(){
+      
+			$('#responsive-images').lightGallery({
+				mode: 'lg-fade',
+				cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)',
+				getCaptionFromTitleOrAlt: 'true',
+				share: 'true'
+}); 
+        });
+        </script>
+		
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="js/lightgallery.js"></script>
+        <script src="js/lg-fullscreen.js"></script>
+        <script src="js/lg-thumbnail.js"></script>
+        <script src="js/lg-video.js"></script>
+        <script src="js/lg-autoplay.js"></script>
+        <script src="js/lg-zoom.js"></script>
+        <script src="js/lg-hash.js"></script>
+        <script src="js/lg-pager.js"></script>
+		<script src="js/lg-share.js"></script>
+        <script src="lib/jquery.mousewheel.min.js"></script>
+        <!-- LIGHTGALLERY -->
+		
+		
+		<!-- WOW SCROLL -->
+		<script src="js/wow.js"></script>
+		<script>
+				new WOW().init();
+		</script>
+		
+
+</body>
+
+</html>
