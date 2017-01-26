@@ -252,37 +252,7 @@ border-color:#464241!important;
     margin-left: auto;
 }
 	/*! container fluid senza padding per area contatti  e about */
-	
-	
-	/*! sezioni 
-section {
-  padding: 50px 0;
-  background-color: #fdfdfd;
-} /*! sezioni */
 
-
-/*! sezione about 
-section.success {
-  
-  
-}
-/*! sezione about */
-
-/*! sezione contact 
-section.contact {
-    padding: 3em 0;
-    position: relative;
-	background: #333;
-	content: '';
-    bottom: -25px;
-    top: 100%;
-    left: 0;
-	border-left: 0;
-    border-right: 100vw solid currentColor;
-    border-bottom: 4vw solid transparent;
-    border-top: 0;
-    z-index: 1;
-}
 /*! sezione contact */
 section{padding:3em 0;position:relative;}
 section:after{content:'';position:absolute;bottom:-25px;top:100%;left:0;border-right:100vw solid currentColor;border-bottom:4vw solid transparent;border-top:0;z-index:1;}
@@ -364,8 +334,8 @@ footer .footer-below {
 .btn-outline {
   color: #444;
   font-size: 26px;
-  border: solid 2px white;
-  background: #fff;
+  border: solid 2px #27afbc;
+  background: #eee;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
