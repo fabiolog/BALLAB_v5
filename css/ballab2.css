@@ -6,7 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-  background-color: #464241;
+  background-color: #011627 ;
 }
 
 
@@ -21,7 +21,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #16848e;
+  color: #2ec4b6;
   outline: none;
 }
 
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#27afbc;
+  color:#2ec4b6;
   font-weight: 700;
 }
 hr.star-light,
@@ -105,7 +105,7 @@ header .intro-text .main {
 .page-header {
 	font-family: 'Covered By Your Grace'!important;
 	font-size:4em;
-	color:#333;
+	color:#011627;
     padding-bottom: 9px;
     margin: 40px 0 20px;
     border-bottom: 0px solid #eee;
@@ -126,7 +126,7 @@ margin-bottom: 0px;
 }
 	
 .navbar-header{
-border-color:#464241!important;
+border-color:#011627!important;
 }
 
 .navbar-brand {
@@ -148,7 +148,7 @@ border-color:#464241!important;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-  color:#ddd;
+  color:#fdfffc;
 }
 .navbar-custom-noupper {
   text-transform: none!important;
@@ -162,49 +162,49 @@ border-color:#464241!important;
 }
 
 .navbar-custom .navbar-brand {
-  color: #ddd;
+  color: #fdfffc;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #ddd;
+  color: #fdfffc;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #ddd;
+  color: #fdfffc;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #ddd;
+  color: #fdfffc;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: #ddd;
+  color: #fdfffc;
 }
 .navbar-custom .navbar-nav li.active a {
   color: #ddd;
-  background: #464241;
+  background: #011627 ;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: #ddd;
-  background: #464241;
+  background: #011627 ;
 }
 .navbar-custom .navbar-toggle {
   color: #ddd;
   text-transform: uppercase;
   font-size: 20px;
   border: none;
-  background-color: #464241;
+  background-color: #011627 ;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #464241;
-  color: #fff;
+  background-color: #011627 ;
+  color: #fdfffc ;
    border: none;
 }
 @media (min-width: 768px) {
@@ -238,7 +238,7 @@ border-color:#464241!important;
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-    background-color: #27afbc;
+    background-color: #2ec4b6 ;
 	}
 	
 	/*! NAVBAR */
@@ -256,15 +256,17 @@ border-color:#464241!important;
 /*! sezione contact */
 section{padding:3em 0;position:relative;}
 section:after{content:'';position:absolute;bottom:-25px;top:100%;left:0;border-right:100vw solid currentColor;border-bottom:4vw solid transparent;border-top:0;z-index:1;}
-section.photo:after{color:#444;}
-section.success:after{color:#27afbc;}
-section.success{background:#27afbc;color: #444;}
-section.contact:after{color:#fb9a3b;}
-section.contact{background:#fb9a3b;padding-bottom:30px;}
-section.intro:after{color:#fff;}
-section.intro{background:#fff;padding-bottom:30px;}
-section.navbarr:after{color:#eee;}
-section.navbarr{background:#eee;padding-bottom:30px;padding:0 0;}
+section.navbarr:after{color:#eeeef2;}
+section.navbarr{background:#eeeef2;padding-bottom:30px;padding:0 0;}
+section.intro:after{color:#fdfffc;}
+section.intro{background:#fdfffc;padding-bottom:30px;}
+section.photo:after{color:#011627;}
+section.success:after{color:#2ec4b6;}
+section.success{background:#2ec4b6;color: #011627;}
+section.contact:after{color:#ff9f1c;}
+section.contact{background:#ff9f1c;padding-bottom:30px;}
+
+
 .section--inverted:after{border-left:100vw solid currentColor;border-right:0;}
 section h2 {
   margin: 0;
@@ -274,23 +276,23 @@ section h2 {
 section.success h1,h2 {
 font-family: 'Covered By Your Grace', cursive!important;
 font-size:3em;
-  color:#444;
+  color:#011627;
   padding-bottom:50px;
   	text-shadow: 0 6px 1px rgba(0,0,0,0.2);
 }
 section.success h3 {
-  color:#444;
+  color:#011627;
   padding-bottom:30px;
 }
 section.contact h1,h2 {
 font-family: 'Covered By Your Grace', cursive!important;
 font-size:3em;
-  color:#444;
+  color:#011627;
   padding-bottom:50px;
   	text-shadow: 0 6px 1px rgba(0,0,0,0.2);
 }
 section.contact h3 {
-  color:#444;
+  color:#011627;
   padding-bottom:30px;
 }
 
@@ -306,36 +308,36 @@ section.contact h3 {
 /*! sezione contact */
 
 footer {
-  color: #444;
+  color: #011627;
   
 }
 
 
 footer h3 {
   margin-bottom: 30px;
-  color:#444!important;
+  color:#011627!important;
 }
 footer h4 {
 
-  color:#444!important;
+  color:#011627!important;
 }
 footer .footer-above {
   padding-top: 90px;
-  background-color: #fcfcfc;
+  background-color: #fdfffc;
 }
 footer .footer-col {
   margin-bottom: 10px;
 }
 footer .footer-below {
   padding: 10px 0;
-  background-color: #fcfcfc;
+  background-color: #fdfffc;
 }
 
 .btn-outline {
-  color: #444;
+  color: #011627;
   font-size: 26px;
   border: solid 2px #27afbc;
-  background: #eee;
+  background: #2ec4b6;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -343,7 +345,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #16848e;   
+  color: #fdfffc;   
   background: white;
   border: solid 2px white;
 }
