@@ -268,7 +268,6 @@ section.navbarr{background:#eee;padding-bottom:30px;padding:0 0;}
 .section--inverted:after{border-left:100vw solid currentColor;border-right:0;}
 section h2 {
   margin: 0;
-
 }
 
 section.success h1,h2 {
@@ -280,7 +279,7 @@ font-size:3em;
 }
 section.success h3 {
   color:#444;
-  padding-bottom:30px;
+  padding-bottom:10px;
 }
 section.contact h1,h2 {
 font-family: 'Covered By Your Grace', cursive!important;
